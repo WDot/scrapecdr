@@ -13,5 +13,5 @@ class HawaiiCDRSpider(scrapy.Spider):
         self.logger.info('A response from %s just arrived!', response.url)
         self.logger.info(response)
         for item in response.xpath('//*[@id="tablepress-15"]/tbody/*/td[1]/text()'):
-            self.logger.info(item)
-            yield ScrapecdrItem(state='Hawaii',disease=item.get())
+            #self.logger.info(item)
+            yield ScrapecdrItem(state=self.name,disease=item.get())

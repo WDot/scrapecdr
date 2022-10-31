@@ -13,4 +13,4 @@ class IndianaCDRSpider(scrapy.Spider):
         self.logger.info('A response from %s just arrived!', response.url)
         self.logger.info(response)
         for item in response.xpath('//*[@id="content_container_373681"]/table/tbody/*/td'):
-            yield ScrapecdrItem(state='Indiana',disease=item.get())
+            yield ScrapecdrItem(state=self.name,disease=item.get())
