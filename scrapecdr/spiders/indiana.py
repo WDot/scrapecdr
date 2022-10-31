@@ -4,7 +4,7 @@ import scrapy
 from scrapecdr.items import ScrapecdrItem
 
 class IndianaCDRSpider(scrapy.Spider):
-    name = 'indiana'
+    name = 'Indiana'
     start_urls = [
         'https://www.in.gov/health/erc/infectious-disease-epidemiology/infectious-disease-epidemiology/communicable-disease-reporting/'
     ]
@@ -12,5 +12,5 @@ class IndianaCDRSpider(scrapy.Spider):
     def parse(self, response):
         self.logger.info('A response from %s just arrived!', response.url)
         self.logger.info(response)
-        for item in response.xpath('/html/body/div/main/article/section/table/tbody/*/td'):
+        for item in response.xpath('//*[@id="content_container_373681"]/table/tbody/*/td'):
             yield ScrapecdrItem(state='Indiana',disease=item.get())

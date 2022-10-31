@@ -8,15 +8,26 @@ import re
 from itemadapter import ItemAdapter
 import logging
 import bleach
-
+import os
+import os.path
+from datetime import datetime as dt
 class ScrapecdrPipeline:
+    def __init__(self):
+        self.OUT_FILE = 'communicable_disease_reporting.json'
     def open_spider(self, spider):
-        self.diseaseDict = {}
+        if os.path.exists(self.OUT_FILE):
+            self.diseaseDict = json.load(open(self.OUT_FILE,'r'))
+            #backup just in case
+            json.dump(self.diseaseDict,open(self.OUT_FILE + str(dt.now()),'w'))
+            #clear current state's list
+            self.diseaseDict[spider.name] = []
+        else:
+            self.diseaseDict = {}
 
     def close_spider(self, spider):
         for key in self.diseaseDict:
             self.diseaseDict[key] = list(set(self.diseaseDict[key]))
-        json.dump(self.diseaseDict,open('communicable_disease_reporting.json','w'),indent=True)
+        json.dump(self.diseaseDict,open(self.OUT_FILE,'w'),indent=True)
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
@@ -26,7 +37,8 @@ class ScrapecdrPipeline:
             diseaseVal = diseaseVal.replace('!','')
             diseaseVal = diseaseVal.replace('*','')
             diseaseVal = diseaseVal.strip()
-            if adapter['state'] in self.diseaseDict:
-                self.diseaseDict[adapter['state']].append(diseaseVal)
-            else:
-                self.diseaseDict[adapter['state']] = [diseaseVal]
+            if len(diseaseVal) > 0:
+                if adapter['state'] in self.diseaseDict:
+                    self.diseaseDict[adapter['state']].append(diseaseVal)
+                else:
+                    self.diseaseDict[adapter['state']] = [diseaseVal]
