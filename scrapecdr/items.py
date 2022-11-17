@@ -8,3 +8,5 @@ import scrapy
 class ScrapecdrItem(scrapy.Item):
     state = scrapy.Field()
     disease = scrapy.Field()
+    contactMethod = scrapy.Field()
+    contactTiming = scrapy.Field()

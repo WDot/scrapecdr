@@ -25,20 +25,20 @@ class ScrapecdrPipeline:
             self.diseaseDict = {}
 
     def close_spider(self, spider):
-        for key in self.diseaseDict:
-            self.diseaseDict[key] = list(set(self.diseaseDict[key]))
+        #for key in self.diseaseDict:
+        #    self.diseaseDict[key] = list(set(self.diseaseDict[key]))
         json.dump(self.diseaseDict,open(self.OUT_FILE,'w'),indent=True)
 
     def process_item(self, item, spider):
         adapter = ItemAdapter(item)
         
         if ('state' in adapter) and ('disease' in adapter):
-            diseaseVal = bleach.clean(adapter['disease'],strip=True,strip_comments=True,tags=[],attributes={}, styles=[])
-            diseaseVal = diseaseVal.replace('!','')
-            diseaseVal = diseaseVal.replace('*','')
-            diseaseVal = diseaseVal.strip()
-            if len(diseaseVal) > 0:
-                if adapter['state'] in self.diseaseDict:
-                    self.diseaseDict[adapter['state']].append(diseaseVal)
-                else:
-                    self.diseaseDict[adapter['state']] = [diseaseVal]
+            diseaseDict = {'disease' : adapter['disease']}
+            if ('contactMethod' in adapter):
+                diseaseDict['contactMethod'] = adapter['contactMethod']
+            if('contactTiming' in adapter):
+                diseaseDict['contactTiming'] = adapter['contactTiming']
+            if adapter['state'] in self.diseaseDict:
+                self.diseaseDict[adapter['state']].append(diseaseDict)
+            else:
+                self.diseaseDict[adapter['state']] = [diseaseDict]
