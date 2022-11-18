@@ -19,11 +19,11 @@ class HawaiiCDRSpider(scrapy.Spider):
             count += 1
             if count % 3 == 0:
                 diseaseVal = item.get()
-                diseaseVal = bleach.clean(diseaseVal,strip=True,strip_comments=True,tags=[],attributes={}, styles=[])
+                diseaseVal = bleach.clean(diseaseVal,strip=True,strip_comments=True,tags=[],attributes={}, css_sanitizer=[])
                 diseaseVal = diseaseVal.strip()
             elif count % 3 == 1:
                 urgency = item.get()
-                urgency = bleach.clean(urgency,strip=True,strip_comments=True,tags=[],attributes={}, styles=[])
+                urgency = bleach.clean(urgency,strip=True,strip_comments=True,tags=[],attributes={}, css_sanitizer=[])
                 urgency = urgency.strip()
                 contactTiming = 'Unknown'
                 if urgency == 'Urgent':
@@ -40,7 +40,7 @@ class HawaiiCDRSpider(scrapy.Spider):
                     self.logger.info('Urgency {0}'.format(urgency))
             elif count % 3 == 2:
                 interestedParty = item.get()
-                interestedParty = bleach.clean(interestedParty,strip=True,strip_comments=True,tags=[],attributes={}, styles=[])
+                interestedParty = bleach.clean(interestedParty,strip=True,strip_comments=True,tags=[],attributes={}, css_sanitizer=[])
                 interestedParty = interestedParty.strip()
                 contactMethod = 'Unknown'
                 if interestedParty == 'Disease Investigation Branch':

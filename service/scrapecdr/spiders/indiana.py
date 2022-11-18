@@ -15,7 +15,7 @@ class IndianaCDRSpider(scrapy.Spider):
         self.logger.info(response)
         for item in response.xpath('//*[@id="content_container_373681"]/table/tbody/*/td'):
             diseaseVal = item.get()
-            diseaseVal = bleach.clean(diseaseVal,strip=True,strip_comments=True,tags=[],attributes={}, styles=[])
+            diseaseVal = bleach.clean(diseaseVal,strip=True,strip_comments=True,tags=[],attributes={}, css_sanitizer=[])
             diseaseVal = diseaseVal.lower()
             #Default
             contactTiming = 'Within 72 hours'

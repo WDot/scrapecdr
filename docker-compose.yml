@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  flask:
+    build:
+      context: ./service
+    ports:
+      - "8080:8080"
+  #app:
+  #    build:
+  #      context: ./webui
+  #    depends_on:
+  #      - flask
+  #    ports:
+  #      - "3000:3000"
