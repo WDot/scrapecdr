@@ -26,6 +26,12 @@ class MRCONSO:
         self.mrconso = pd.read_csv('MRCONSO.RRF',delimiter='|',names=COL_NAMES,dtype=str,index_col=False)
         self.sabs = sabs
         self.codeDict = {}
+        #data = np.load('mrconsovectors20220706.npz')
+        #strings = data['s']
+        #vectors = data['v'].astype(np.float32)
+        #self.vectorDict = {}
+        #for i in range(len(strings)):
+        #    self.vectorDict[strings[i]] = vectors[i,:]
         failures = 0
         for sab in sabs:
             curCuis = self.mrconso.loc[(self.mrconso['SAB'] == sab) &
@@ -37,9 +43,11 @@ class MRCONSO:
                     if curCuis['CUI'].iloc[i] in self.codeDict[sab]:
                         self.codeDict[sab][curCuis['CUI'].iloc[i]].append((curCuis['CODE'].iloc[i],
                                                                            curStr))
+                                                                           #self.vectorDict[curStr]))
                     else:
                         self.codeDict[sab][curCuis['CUI'].iloc[i]]= [(curCuis['CODE'].iloc[i],
                                                                       curStr)]
+                                                                      #self.vectorDict[curStr])]
                 except KeyError:
                     failures += 1
                     print(failures)

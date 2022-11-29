@@ -11,8 +11,7 @@ import requests
 import subprocess
 from mrconso import MRCONSO
 import logging
-#from vdxmapper import VisualDxConcepts
-#import editdistance
+import editdistance
 
 class CDRInfo:
     def __init__(self):
@@ -20,12 +19,31 @@ class CDRInfo:
         self.mrconso = MRCONSO(['SNOMEDCT_US'])
         self.stateData = json.load(open('communicable_disease_reporting.json'))
         for state in self.stateData:
-            for item in self.stateData[state]:
-                jsonData = self.getTreatmentMetamapJson(item['disease'])
+            for i in range(len(self.stateData[state])):
+                diseaseName = self.stateData[state][i]['disease'].encode(encoding='ascii',errors='ignore').decode('ascii')
+                jsonData = self.getTreatmentMetamapJson(diseaseName)
                 cur_cuis, cur_cuinames = self.JsonToCuis(jsonData)
                 cuiMapping = self.mrconso.CuisToMRCONSO(cur_cuis)
-                logging.info(cuiMapping)
-                
+                #conceptIdVals,conceptIdNames,snomeds,confidences = self.vdxmapper.getConceptIds(cuiMapping,0.9)
+                #if len(confidences) > 0:
+                #    maxind = np.argmax(confidences)
+                #    self.stateData[state][i]['snomed'] = snomeds[maxind]
+                #    self.stateData[state][i]['vdxconcept'] = conceptIdVals[maxind]
+                #    self.stateData[state][i]['vdxname'] = conceptIdNames[maxind]
+                minDistance = 100000
+                minSnomed = None
+                minSnomedName = None
+                for key in cuiMapping:
+                    for mapCode,mapStr in cuiMapping[key]:
+                        curDistance = editdistance.eval(diseaseName,mapStr)
+                        if curDistance < minDistance:
+                            minDistance = curDistance
+                            minSnomed = mapCode
+                            minSnomedName = mapStr
+                self.stateData[state][i]['snomed'] = minSnomed
+                self.stateData[state][i]['snomedname'] = minSnomedName
+
+                logging.info(self.stateData[state][i])                
 
 
     def getTreatmentMetamapJson(self,text):
