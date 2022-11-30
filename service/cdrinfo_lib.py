@@ -24,12 +24,6 @@ class CDRInfo:
                 jsonData = self.getTreatmentMetamapJson(diseaseName)
                 cur_cuis, cur_cuinames = self.JsonToCuis(jsonData)
                 cuiMapping = self.mrconso.CuisToMRCONSO(cur_cuis)
-                #conceptIdVals,conceptIdNames,snomeds,confidences = self.vdxmapper.getConceptIds(cuiMapping,0.9)
-                #if len(confidences) > 0:
-                #    maxind = np.argmax(confidences)
-                #    self.stateData[state][i]['snomed'] = snomeds[maxind]
-                #    self.stateData[state][i]['vdxconcept'] = conceptIdVals[maxind]
-                #    self.stateData[state][i]['vdxname'] = conceptIdNames[maxind]
                 minDistance = 100000
                 minSnomed = None
                 minSnomedName = None
@@ -43,7 +37,9 @@ class CDRInfo:
                 self.stateData[state][i]['snomed'] = minSnomed
                 self.stateData[state][i]['snomedname'] = minSnomedName
 
-                logging.info(self.stateData[state][i])                
+                logging.info(self.stateData[state][i])
+
+
 
 
     def getTreatmentMetamapJson(self,text):
@@ -95,18 +91,41 @@ class CDRInfo:
 
         return (cuis,cpreferred)
 
-    '''
-    def autocomplete(self,searchVal,K):
+    
+    def autocomplete(self,searchVal,state,K=1):
         distances = []
-        for key in self.terms:
-            distances.append(editdistance.eval(searchVal.lower(),key.lower()))
-            #print(distances)
-        distances = np.array(distances)
-        #print(distances.shape)
-        min_distances = np.argpartition(distances,K)
-        best_keys = sorted([self.terms[i] for i in sorted(min_distances[:K])])
-        return best_keys
-    '''
+        if state in self.stateData:
+            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            for key in relevantDiseases:
+                distances.append(editdistance.eval(searchVal.lower(),key.lower()))
+                #print(distances)
+            distances = np.array(distances)
+            #print(distances.shape)
+            min_distances = np.argpartition(distances,K)
+            best_keys = [relevantDiseases[i] for i in sorted(min_distances[:K])]
+            return {"best_keys": best_keys}
+        else:
+            raise KeyError("State Communicable Disease Reporting Data not available!")
+
+
+    def getCdrInfo(self,searchVal,state):
+        if state in self.stateData:
+            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            try:
+                index = relevantDiseases.index(searchVal)
+                return self.stateData[state][index]
+            except ValueError:
+                raise ValueError("Disease Not in State CDR Requirements!")
+        else:
+            raise KeyError("State Communicable Disease Reporting Data not available!")
+
+    def allCdrsInState(self,state):
+        if state in self.stateData:
+            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            return {'state': state, 'diseases': relevantDiseases}
+        else:
+            raise KeyError("State Communicable Disease Reporting Data not available!")
+
         
 if __name__ == "__main__":
     drugInfo = CDRInfo()
