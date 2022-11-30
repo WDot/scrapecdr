@@ -1,0 +1,20 @@
+div.listframe {
+    order: 1;
+    width: 20%;
+}
+
+div.quizframe {
+    order: 2;
+    width: 40%;
+}
+
+div.imageframe {
+    order: 3;
+    width: 40%;
+}
+
+div.totalframe {
+   display:flex;
+   flex-direction: row;
+   height: 1024px;
+}
