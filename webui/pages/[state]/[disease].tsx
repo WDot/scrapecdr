@@ -26,6 +26,11 @@ export default function DiseasePage(props: {diseases: string[], state: string, d
   // so you can return Date, Map, Set, etc.
   console.log(props.diseases)
   const stateList = ["Hawaii","Indiana","Ohio"];
-  return (<p><StateList states={stateList} disease={props.disease} />
-          <DiseaseList diseases={props.diseases} /></p>);
+  return (<table>
+            <tr>
+              <td><StateList states={stateList} disease={props.disease} /></td>
+              <td><DiseaseList diseases={props.diseases} state={props.state} /></td>
+            </tr>
+          </table>
+          );
 }
