@@ -1,10 +1,11 @@
 async function getDiseaseList(state) {
-    const res = await fetch(`http://flask:8080/allcdrsinstate/${state}`,{
+    const res = await fetch(`http://flask:80/allcdrsinstate/${state}`,{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       method: "POST",
+      cache: 'no-store',
       body: JSON.stringify({})
   });
     const data = await res.json();
