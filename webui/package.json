@@ -8,9 +8,11 @@
   "dependencies": {
     "aws-sdk": "^2.1241.0",
     "dotenv": "^16.0.3",
-    "next": "^13.0.0",
+    "eslint-config-next": "^13.0.5",
+    "next": "^13.0.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.40.0"
   },
   "devDependencies": {
     "@types/node": "^18.11.7",
