@@ -1,12 +1,13 @@
 import StateList from '../../components/statelist'
 import DiseaseList from '../../components/diseaselist'
+import BestPracticeAdvisory from '../../components/bestpracticeadvisory'
 import Link from 'next/link'
+import styles from './[disease].module.css'
 
 export async function getServerSideProps(context) {
   const state : string = ("state" in context.query) ? context.query.state : 'Ohio';
-  const disease : string = ("disease" in context.query) ? context.query.state : 'Botulism';  
   
-  const res = await fetch(`http://flask:80/allcdrsinstate/${state}`,{
+  const diseaseListResponse = await fetch(`http://flask:80/allcdrsinstate/${encodeURIComponent(state)}`,{
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
@@ -14,13 +15,33 @@ export async function getServerSideProps(context) {
     method: "POST",
     cache: 'no-store',
     body: JSON.stringify({})
-});
-  const data = await res.json();
-  console.log(data)
-  return {props: {diseases: data.diseases, state: state, disease: disease}};
+  });
+  const diseaseListData = await diseaseListResponse.json();
+
+  const disease = (diseaseListData.diseases.includes(context.query.disease)) ? context.query.disease : diseaseListData.diseases[0];
+
+  const cdrInfoResponse = await fetch(`http://flask:80/cdrinfo/${encodeURIComponent(state)}/${encodeURIComponent(disease)}`,{
+    headers: {
+      'Accept': 'application/json',
+      'Content-Type': 'application/json'
+    },
+    method: "POST",
+    cache: 'no-store',
+    body: JSON.stringify({})
+  });
+  const cdrInfoData = await cdrInfoResponse.json();
+  return {props: {diseases: diseaseListData.diseases,
+                  state: state,
+                  disease: disease,
+                  contactMethod: cdrInfoData.contactMethod,
+                  contactTiming: cdrInfoData.contactTiming}};
 }
 
-export default function DiseasePage(props: {diseases: string[], state: string, disease: string}) {
+export default function DiseasePage(props: {diseases: string[],
+                                            state: string,
+                                            disease: string,
+                                            contactMethod: string,
+                                            contactTiming: string}) {
   // This value is fully typed
   // The return value is *not* serialized
   // so you can return Date, Map, Set, etc.
@@ -28,8 +49,13 @@ export default function DiseasePage(props: {diseases: string[], state: string, d
   const stateList = ["Hawaii","Indiana","Ohio"];
   return (<table>
             <tr>
-              <td><StateList states={stateList} disease={props.disease} /></td>
-              <td><DiseaseList diseases={props.diseases} state={props.state} /></td>
+              <td className={styles.column}><StateList states={stateList} disease={props.disease} state={props.state} /></td>
+              <td className={styles.column}><DiseaseList diseases={props.diseases} state={props.state} disease={props.disease} /></td>
+              <td className={styles.column}><BestPracticeAdvisory 
+                                              disease={props.disease}
+                                              state={props.state}
+                                              contactMethod={props.contactMethod}
+                                              contactTiming={props.contactTiming} /></td>
             </tr>
           </table>
           );

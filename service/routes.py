@@ -5,6 +5,7 @@ from logging.config import dictConfig
 import hashlib
 import sys
 import time
+import urllib.parse
 
 from flask import Flask, request,jsonify
 
@@ -37,6 +38,8 @@ def create_app(test_config=None):
 
     @app.route("/cdrinfo/<state>/<searchTerm>", methods=['POST'])
     def cdrInfo(state,searchTerm):
+        state = urllib.parse.unquote(state)
+        searchTerm = urllib.parse.unquote(searchTerm)
         ipaddress = request.remote_addr
         requeststring = str(dict(request.form))
         requesthash = str(hashlib.md5(requeststring.encode('utf-8')).hexdigest())
@@ -101,6 +104,7 @@ def create_app(test_config=None):
 
     @app.route("/allcdrsinstate/<state>", methods=['POST'])
     def allCdrsInState(state):
+        state = urllib.parse.unquote(state)
         ipaddress = request.remote_addr
         requeststring = str(dict(request.form))
         requesthash = str(hashlib.md5(requeststring.encode('utf-8')).hexdigest())
