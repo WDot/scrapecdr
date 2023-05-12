@@ -1,5 +1,5 @@
 async function getDiseaseList(state) {
-    const res = await fetch(`http://flask:8080/allcdrsinstate/${state}`,{
+    const res = await fetch(`http://localhost:8080/allcdrsinstate/${state}`,{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
@@ -15,7 +15,7 @@ async function getDiseaseList(state) {
     // This value is fully typed
     // The return value is *not* serialized
     // so you can return Date, Map, Set, etc.
-    const data = await getDiseaseList('Ohio');
+    const data = await getDiseaseList('Hawaii');
   
     return <p>{JSON.stringify(data)}</p>;
   }

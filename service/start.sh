@@ -7,8 +7,4 @@ EOF
 public_mm/bin/wsdserverctl start
 public_mm/bin/skrmedpostctl start
 
-scrapy crawl Indiana
-scrapy crawl Hawaii
-scrapy crawl Ohio
-
 python3 main.py
