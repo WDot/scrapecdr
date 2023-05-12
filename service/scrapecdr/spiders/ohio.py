@@ -16,13 +16,14 @@ class OhioCDRSpider(scrapy.Spider):
         jsonText = json.loads(response.xpath('//*[@id="js-placeholder-json-data"]/text()')[0].get())
         count = 0
         for item in jsonText['data']:
+            self.logger.info(item)
             if count < 2:
                 count += 1
-            elif len(item) == 3:
-                if item[2] == 'A':
+            elif len(item) >= 4:
+                if item[3] == 'A':
                     contactTiming = 'Immediately'
                     contactMethod = 'Local Health Department Phone'
                 else:
                     contactTiming = 'By the End of Next Business Day'
                     contactMethod = 'https://odh.ohio.gov/wps/wcm/connect/gov/8a5539e9-f823-480d-a2c7-a30e80c33d62/form-confidential-reportable-disease.pdf?MOD=AJPERES&CONVERT_TO=url&CACHEID=ROOTWORKSPACE.Z18_K9I401S01H7F40QBNJU3SO1F56-8a5539e9-f823-480d-a2c7-a30e80c33d62-mR0PC0i'
-                yield ScrapecdrItem(state=self.name,disease=item[1],contactTiming=contactTiming,contactMethod=contactMethod)
+                yield ScrapecdrItem(state=self.name,disease=item[2],contactTiming=contactTiming,contactMethod=contactMethod)

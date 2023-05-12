@@ -1,0 +1,10 @@
+div.window {
+    background-color:forestgreen;
+    border-radius: 10px;
+}
+
+div.field {
+    background-color:chartreuse;
+    border-radius: 10px;
+    padding: 10px;
+}

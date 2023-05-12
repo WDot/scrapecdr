@@ -15,16 +15,6 @@ COPY . .
 
 RUN export TMPDIR="/tmp"
 
-ARG BUILD_DATE=unknown
-ARG GIT_COMMIT=unknown
-ARG IMAGE_REPO_NAME=weblabel
-
-LABEL "org.opencontainers.image.created"="$BUILD_DATE"
-LABEL "org.opencontainers.image.source"="https://bitbucket.org/visualdx/weblabel"
-LABEL "org.opencontainers.image.revision"="$GIT_COMMIT"
-LABEL "org.opencontainers.image.title"="$IMAGE_REPO_NAME"
-LABEL "org.opencontainers.image.description"="Packaged application container providing $IMAGE_REPO_NAME services"
-
 RUN npm ci
 
 RUN npm run build
