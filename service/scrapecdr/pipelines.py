@@ -33,7 +33,9 @@ class ScrapecdrPipeline:
         adapter = ItemAdapter(item)
         
         if ('state' in adapter) and ('disease' in adapter):
-            diseaseDict = {'disease' : adapter['disease']}
+            disease = adapter['disease']
+            disease = disease.replace('μ','micro') #annoying hack due to uri encoding
+            diseaseDict = {'disease' : disease}
             if ('contactMethod' in adapter):
                 diseaseDict['contactMethod'] = adapter['contactMethod']
             if('contactTiming' in adapter):

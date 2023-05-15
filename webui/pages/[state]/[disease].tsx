@@ -7,7 +7,7 @@ import styles from './[disease].module.css'
 export async function getServerSideProps(context) {
   const state : string = ("state" in context.query) ? context.query.state : 'Ohio';
   
-  const diseaseListResponse = await fetch(`http://flask:80/allcdrsinstate/${encodeURIComponent(state)}`,{
+  const diseaseListResponse = await fetch(`http://flask:80/allcdrsinstate/${state}`,{
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
@@ -16,11 +16,12 @@ export async function getServerSideProps(context) {
     cache: 'no-store',
     body: JSON.stringify({})
   });
+  console.log(diseaseListResponse);
   const diseaseListData = await diseaseListResponse.json();
 
   const disease = (diseaseListData.diseases.includes(context.query.disease)) ? context.query.disease : diseaseListData.diseases[0];
 
-  const cdrInfoResponse = await fetch(`http://flask:80/cdrinfo/${encodeURIComponent(state)}/${encodeURIComponent(disease)}`,{
+  const cdrInfoResponse = await fetch(`http://flask:80/cdrinfo/${state}/${disease}`,{
     headers: {
       'Accept': 'application/json',
       'Content-Type': 'application/json'
@@ -29,6 +30,7 @@ export async function getServerSideProps(context) {
     cache: 'no-store',
     body: JSON.stringify({})
   });
+  console.log(cdrInfoResponse);
   const cdrInfoData = await cdrInfoResponse.json();
   return {props: {diseases: diseaseListData.diseases,
                   state: state,

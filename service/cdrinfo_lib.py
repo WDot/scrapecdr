@@ -95,7 +95,7 @@ class CDRInfo:
     def autocomplete(self,searchVal,state,K=1):
         distances = []
         if state in self.stateData:
-            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            relevantDiseases = [x['snomedname'] for x in self.stateData[state]]
             for key in relevantDiseases:
                 distances.append(editdistance.eval(searchVal.lower(),key.lower()))
                 #print(distances)
@@ -110,7 +110,7 @@ class CDRInfo:
 
     def getCdrInfo(self,searchVal,state):
         if state in self.stateData:
-            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            relevantDiseases = [x['snomedname'] for x in self.stateData[state]]
             try:
                 index = relevantDiseases.index(searchVal)
                 return self.stateData[state][index]
@@ -121,7 +121,7 @@ class CDRInfo:
 
     def allCdrsInState(self,state):
         if state in self.stateData:
-            relevantDiseases = [x['disease'] for x in self.stateData[state]]
+            relevantDiseases = [x['snomedname'] for x in self.stateData[state]]
             return {'state': state, 'diseases': relevantDiseases}
         else:
             raise KeyError("State Communicable Disease Reporting Data not available!")

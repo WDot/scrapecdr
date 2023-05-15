@@ -45,7 +45,7 @@ def create_app(test_config=None):
         requesthash = str(hashlib.md5(requeststring.encode('utf-8')).hexdigest())
         if request.method == 'POST':
             #time.sleep(2)
-            logging.info('POST CDRInfo Request: {0} from IP: {1} MD5Sum: {2}'.format(searchTerm,ipaddress,requesthash))
+            logging.info('POST CDRInfo Request: {0} from IP: {1} MD5Sum: {2} State: {3} SearchTerm: {4}'.format(searchTerm,ipaddress,requesthash,state,searchTerm))
             try:
                 response = expert.getCdrInfo(searchTerm,state)
 
@@ -110,7 +110,7 @@ def create_app(test_config=None):
         requesthash = str(hashlib.md5(requeststring.encode('utf-8')).hexdigest())
         if request.method == 'POST':
             #time.sleep(2)
-            logging.info('POST CDRInfo Request: {0} from IP: {1} MD5Sum: {2}'.format(state,ipaddress,requesthash))
+            logging.info('POST CDRInfo Request: {0} from IP: {1} MD5Sum: {2} State: {3}'.format(state,ipaddress,requesthash,state))
             try:
                 response = expert.allCdrsInState(state)
 
