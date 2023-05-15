@@ -34,6 +34,7 @@ class CDRInfo:
                             minDistance = curDistance
                             minSnomed = mapCode
                             minSnomedName = mapStr
+                self.stateData[state][i]['disease'] = diseaseName            
                 self.stateData[state][i]['snomed'] = minSnomed
                 self.stateData[state][i]['snomedname'] = minSnomedName
 
