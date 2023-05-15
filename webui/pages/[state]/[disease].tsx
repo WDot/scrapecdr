@@ -55,7 +55,7 @@ export default function DiseasePage(props: {
   diseases: string[];
   state: string;
   disease: string;
-  contactMethod: string;
+  contactMethod?: string;
   contactTiming: string;
 }) {
   // This value is fully typed

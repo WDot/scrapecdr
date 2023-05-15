@@ -20,7 +20,7 @@ class CDRInfo:
         self.stateData = json.load(open('communicable_disease_reporting.json'))
         for state in self.stateData:
             for i in range(len(self.stateData[state])):
-                diseaseName = self.stateData[state][i]['disease'].encode(encoding='ascii',errors='ignore').decode('ascii')
+                diseaseName = self.stateData[state][i]['disease'].encode(encoding='ascii',errors='ignore').decode('ascii').strip()
                 jsonData = self.getTreatmentMetamapJson(diseaseName)
                 cur_cuis, cur_cuinames = self.JsonToCuis(jsonData)
                 cuiMapping = self.mrconso.CuisToMRCONSO(cur_cuis)
@@ -37,6 +37,9 @@ class CDRInfo:
                 self.stateData[state][i]['disease'] = diseaseName            
                 self.stateData[state][i]['snomed'] = minSnomed
                 self.stateData[state][i]['snomedname'] = minSnomedName
+                #Ignore complications from Hawaii's Website for now
+                if state == 'Hawaii':
+                    self.stateData[state][i]['contactMethod'] = 'Ignore for Now'
 
                 logging.info(self.stateData[state][i])
 
