@@ -32,4 +32,4 @@ RUN adduser --system --uid 1001 nextjs
 
 EXPOSE 3000
 
-CMD npm run start
+CMD npm run dev
