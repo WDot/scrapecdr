@@ -1,0 +1,2116 @@
+{
+ "Hawaii": [
+  {
+   "disease": "Anthrax",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Botulism, Foodborne",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Brucellosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Cholera",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Congenital Rubella Syndrome",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Dengue Fever",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Diphtheria",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Encephalitis, Meningitis, Arboviral (Alpha viruses [e.g., California Serogroup, Eastern equine, Western equine, Venezuelan equine, Chikungunya virus disease], Flavivirus [Powassan, West Nile, Japanese encephalitis])",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Fish Poisoning (ciguatera, scombroid, or hallucinogenic)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Foodborne illness: 2 or more ill persons having eaten: (a) a common food, or (b) at a place in common",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Glanders",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Haemophilus influenzae Serotype b (meningitis, bacteremia, epiglottitis, pneumonia, or isolation from a normally sterile site)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Hantavirus Disease",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Hepatitis A - Also report liver function tests (AST, ALT) conducted at the same time a=for all patients who are HAV IgM positive",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Influenza (Laboratory confirmed cases and outbreaks)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Legionellosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Measles (rubeola)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Melioidosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Meningococcal Disease (meningitis, meningococcemia, or isolation from a normally sterile site)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Pertussis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Plague",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Poliomyelitis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Psittacosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Q Fever",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Rabies",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Rubella (German Measles)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "SARS (Severe Acute Respiratory Syndrome)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Smallpox",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Tularemia",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Typhoid Fever",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Viral hemorrhagic fevers (Filoviruses [e.g., Ebola, Marburg], and Arenaviruses [e.g., Lassa, Machupo])",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "West Nile Virus Fever",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Yellow Fever",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Botulism, wound or infant",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Chickenpox - varicella (report individual cases)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Cyclosporiasis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Enterococcus, Vancomycin-resistant",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Filariasis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Hepatitis B (acute and chronic) - Also report liver function tests (AST, ALT) conducted at the same time for all patients who are anti-HCV positive",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Hepatitis C (acute) - Also report liver function tests (AST, ALT) conducted at the same time for all patients who are anti-HCV positive",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Hepatitis E - Also report liver function tests (AST, ALT) conducted at the same time for all patients who are anti-HCV positive",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Leptospirosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Malaria",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Mumps",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Pneumococcal disease (meningitis, bacteremia, or isolation from a normally sterile site)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Streptococcal disease, Group A (beta hemolytic, invasive disease including Streptococcal Toxic Shock Syndrome, necrotizing fasciitis, or isolation from a normally sterile site, but not including pharyngitis)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Tetanus",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Toxoplasmosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Trichinosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Typhus (louse, flea, mite-borne)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "When convenient"
+  },
+  {
+   "disease": "Amebiasis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Campylobacteriosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Cryptosporidiosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Escherichia coli O157",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Giardiasis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Hemolytic uremic syndrome (HUS)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Hemorrhagic colitis due to E. coli , any strain or serotype",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Listeriosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Norovirus (NoV) (Report laboratory confirmed cases and outbreaks)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Salmonellosis (other than typhoid)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Shigellosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Vibrosis (other than cholera)",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Yersiniosis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Call immediately if the individual case is a foodhandler, direct care provider, or pre-school aged child"
+  },
+  {
+   "disease": "Angiostrongyliasis",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Report upon Request"
+  },
+  {
+   "disease": "Hepatitis C (chronic) - Also report liver function tests (AST, ALT) conducted at the same time for all patients who are anti-HCV positive",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Report upon Request"
+  },
+  {
+   "disease": "Influenza -like illness",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Report upon Request"
+  },
+  {
+   "disease": "MRSA (Methicillin-Resistant Staphylococcus aureus )",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Report upon Request"
+  },
+  {
+   "disease": "Vancomycin Resistant Staphylococcus aureus ) VRSA",
+   "contactMethod": {
+    "contactMethods": [
+     {
+      "locale": "O'ahu",
+      "Phone": "(808) 586-4586",
+      "Fax": "(808) 586-4595",
+      "After-Hours Phone": "1-800-360-2575"
+     },
+     {
+      "locale": "Hawai'i",
+      "Phone": "(808) 933-0912",
+      "Fax": "(808) 933-0400"
+     },
+     {
+      "locale": "Kaua'i",
+      "Phone": "(808) 241-3563",
+      "Fax": "(808) 241-3480"
+     },
+     {
+      "locale": "Maui",
+      "Phone": "(808) 984-8213",
+      "Fax": "(808) 243-5141",
+      "After-Hours Phone": "1-800-360-2575"
+     }
+    ]
+   },
+   "contactTiming": "Report upon Request"
+  },
+  {
+   "disease": "Tuberculosis",
+   "contactMethod": {
+    "Phone": "(808) 832-3534",
+    "Fax": "(808) 832-5624",
+    "Address": "1700 Lanakila Avenue, Ground Floor, Honolulu, HI 96817, Attn: Registry - Confidential"
+   },
+   "contactTiming": "Call Immediately, then Mail/Fax a Report within 3 Days"
+  },
+  {
+   "disease": "Chlamydia (Chlamydia trachomatis)",
+   "contactMethod": {
+    "Phone": "(808) 733-9281",
+    "Fax": "(808) 733-9291",
+    "Address": "3627 Kilauea Avenue, Room 304, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "Gonococcal Disease (Neisseria gonorrhoeae)",
+   "contactMethod": {
+    "Phone": "(808) 733-9281",
+    "Fax": "(808) 733-9291",
+    "Address": "3627 Kilauea Avenue, Room 304, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "Pelvic Inflammatory Disease (PID)",
+   "contactMethod": {
+    "Phone": "(808) 733-9281",
+    "Fax": "(808) 733-9291",
+    "Address": "3627 Kilauea Avenue, Room 304, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "Syphilis",
+   "contactMethod": {
+    "Phone": "(808) 733-9281",
+    "Fax": "(808) 733-9291",
+    "Address": "3627 Kilauea Avenue, Room 304, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "Acquired Immunodeficiency Syndrome (CDC Case Definition)",
+   "contactMethod": {
+    "Phone": "(808) 733-4079",
+    "Address": "3627 Kilauea Avenue, Room 306, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "HIV (Human Immunodeficiency Virus)",
+   "contactMethod": {
+    "Phone": "(808) 733-4079",
+    "Address": "3627 Kilauea Avenue, Room 306, Honolulu, HI 96816"
+   },
+   "contactTiming": "Report by phone or mail within 3 Days"
+  },
+  {
+   "disease": "Hansen's Disease",
+   "contactMethod": {
+    "Phone": "(808) 733-9831",
+    "Fax": "(808) 733-9836",
+    "Address": "3627 Kilauea Avenue Room 102, Honolulu, HI 96816"
+   },
+   "contactTiming": "When convenient"
+  }
+ ],
+ "Indiana": [],
+ "Ohio": []
+}
